@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+  scroll behavior: smooth;
+  
+}
+
+/* body- largest scope of webpage */
+
+body {
+  font-family: 'Courier New', sans-serif;
+  font-size: 24px
+  margin: 0;
+  text-align: center;
+  background-color: gray;
+}
+
+.persiHeader {
+  height: 320px;
+  margin: 25px 15px;
+  padding: 25px 15px;
+  background-color: #70cae1;
+  border-style: solid;
+  border-width: 30px;
+}
+
+
+main {
+  margin: 25px 15px;
+  padding: 25px 15px;
+  border-style: solid;
+  border-width: 30px;
+  border-color: orangered;
+  background-color: black;
+}
+
+footer {
+  border-style: solid;
+  border-width: 30px;
+  margin: 25px 15px;
+  padding: 25px 15px;
+  background-color: #70cae1;
+}
+
+/* refers to photod */
+.imageContainer {
+  width: 100%;
+}
+
+/*link stylrs */
+a:link, a:visited {
+  text-decoration: bold;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background: blueviolet;
+}
+
+/*list styles */
+p, ol, li {
+  text-align: left;
+  list-style-position: inside;
+  font-family: Courier ;
+  font-size: 18px;
+  color: steelblue;
+}
+
+/* heading styles */
+h1 {
+  padding-top: 35px;
+  font-size: 22px;
+}
+
+h2 {
+  font-family: 'Comic Sans MS';
+  font-size: 24pt;
+  color: white ;
+}
+
+h3 {
+  font-color: white;
+}
+
+h4 {
+  font-family:Courier;
+  font-size: 18pt;
+  color: black ;
+}
+
+
+div {
+  border-style: solid;
+  border-width: 2px;
+}
