@@ -30,8 +30,21 @@ main {
   padding: 25px 15px;
   border-style: solid;
   border-width: 30px;
-  border-color: orangered;
-  background-color: black;
+  border-color: pink;
+  background-color: #70cae1;
+}
+
+article {
+  margin: 25px 15px;
+  padding: 25px 15px;
+}
+
+div {
+  margin: 25px 15px;
+  padding: 25px 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
 }
 
 footer {
@@ -67,7 +80,7 @@ p, ol, li {
   list-style-position: inside;
   font-family: Courier ;
   font-size: 18px;
-  color: steelblue;
+  color: black;
 }
 
 /* heading styles */
@@ -79,11 +92,11 @@ h1 {
 h2 {
   font-family: 'Comic Sans MS';
   font-size: 24pt;
-  color: white ;
+  color: black ;
 }
 
 h3 {
-  font-color: white;
+  font-color: black;
 }
 
 h4 {
@@ -92,8 +105,3 @@ h4 {
   color: black ;
 }
 
-
-div {
-  border-style: solid;
-  border-width: 2px;
-}
